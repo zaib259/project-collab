@@ -3,38 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Student Result</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f6fc;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 30px auto;
+            width: 80%;
+            background-color: white;
+        }
+
+        caption {
+            font-size: 25px;
+            font-weight: bold;
+            padding: 15px;
+            color: darkblue;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 12px;
+        }
+
+        th {
+            background-color: #2563eb;
+            color: white;
+        }
+
+        .pass {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
 </head>
+
 <body>
+
     <table>
-        <caption> student result
+        <caption>Student Result</caption>
+
         <thead>
-        
-            <th>roll no</tr>
-            <th>name</tr>
-            <th>subject</tr>
-            <th>total</tr>
-            <th>result</tr>
-        <thead>
-        <thead>   
-             <th>urdu</th>  
-             <th>math</th>
-             <th>ps</th> 
-             <th>is</th>
-             <thead>
+            <tr>
+                <th>Roll No</th>
+                <th>Name</th>
+                <th>Urdu</th>
+                <th>Math</th>
+                <th>PS</th>
+                <th>IS</th>
+                <th>Total</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
                 <td>001</td>
-                <td>ali</td>
+                <td>Ali</td>
                 <td>61</td>
                 <td>43</td>
                 <td>73</td>
                 <td>67</td>
-                <td>230</td>
-                <td>passjfjfjjfjiiriiriiriiriiriri[wreopti[wproeti[weproti'sd;dlfkg's;dlkggklfd;'sfgkl;dddsfgkl's;fldgk;sdlfgk's;dflkg's;dlkgklkl;fgdsl;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;kzvc./././././././././././././././././././xm, </td>
-    
-                
-             </body>   
+                <td>244</td>
+                <td class="pass">Pass</td>
+            </tr>
 
+            <tr>
+                <td>002</td>
+                <td>Ahmed</td>
+                <td>55</td>
+                <td>60</td>
+                <td>65</td>
+                <td>70</td>
+                <td>250</td>
+                <td class="pass">Pass</td>
+            </tr>
+        </tbody>
+    </table>
 
-        </caption>
 </body>
 </html>
