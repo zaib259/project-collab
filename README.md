@@ -1,1 +1,1 @@
-# project-collab
+This is a collaboration project at SMIT
